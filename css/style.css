@@ -18,9 +18,9 @@ body{
     font-size:1rem;
     font-weight:400;
     line-height:1.5;
-    color:black;
+    color:#000;
     text-align:left;
-    background-color:white
+    background-color:#fff
 }
 [tabindex="-1"]:focus{
     outline:0!important
@@ -40,9 +40,6 @@ ul{
 ul ul{
     margin-bottom:0
 }
-strong{
-    font-weight:bolder
-}
 small{
     font-size:80%
 }
@@ -53,13 +50,13 @@ a{
 }
 a:hover{
     color:red;
-    text-decoration: underline;
+    text-decoration:underline
 }
 a:not([href]):not([tabindex]){
-    color:inherit;
+    color:inherit
 }
 a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{
-    color:inherit;
+    color:inherit
 }
 a:not([href]):not([tabindex]):focus{
     outline:0
@@ -754,7 +751,7 @@ button{
 .btn{
     display:inline-block;
     font-weight:400;
-    color:black;
+    color:#000;
     text-align:center;
     vertical-align:middle;
     -webkit-user-select:none;
@@ -777,42 +774,42 @@ button{
     }
 }
 .btn:hover{
-    color:black;
+    color:#000;
     text-decoration:none
 }
 .btn:focus{
     outline:0;
-    box-shadow:0 0 0 .2rem rgba(237, 95, 95, 0.25)
+    box-shadow:0 0 0 .2rem rgba(237,95,95,.25)
 }
 .btn:disabled{
     opacity:.65
 }
 .btn-primary{
-    color:white;
+    color:#fff;
     background-color:#b12135;
-    border-color:#b12135;
+    border-color:#b12135
 }
 .btn-primary:hover{
-    color:white;
+    color:#fff;
     background-color:red;
-    border-color:red;
+    border-color:red
 }
 .btn-primary:focus{
-    box-shadow:0 0 0 .2rem rgba(237, 95, 95, 0.25)
+    box-shadow:0 0 0 .2rem rgba(237,95,95,.25)
 }
 .btn-primary:disabled{
-    color:white;
+    color:#fff;
     background-color:#b12135;
-    border-color:#b12135;
+    border-color:#b12135
 }
 .btn-primary:not(:disabled):not(.disabled).active,.btn-primary:not(:disabled):not(.disabled):active{
-    color:white;
+    color:#fff;
     background-color:#b12135;
-    border-color:#b12135;
+    border-color:#b12135
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus,.btn-primary:not(:disabled):not(.disabled):active:focus{
-  color:white;
-  box-shadow:0 0 0 .2rem rgba(237, 95, 95, 0.25)
+    color:#fff;
+    box-shadow:0 0 0 .2rem rgba(237,95,95,.25)
 }
 .btn-lg{
     padding:.5rem 1rem;
@@ -904,7 +901,7 @@ button{
     margin-right:1rem;
     font-size:1.25rem;
     line-height:inherit;
-    white-space:nowrap;
+    white-space:nowrap
 }
 .navbar-logo:focus,.navbar-logo:hover{
     text-decoration:none
@@ -1150,54 +1147,54 @@ button{
     display:none
 }
 .navbar-light .navbar-logo{
-    color:black;
+    color:#000
 }
 .navbar-light .navbar-logo:focus,.navbar-light .navbar-logo:hover{
-    color:black;
+    color:#000
 }
 .navbar-light .navbar-nav .nav-link{
-    color:black;
+    color:#000
 }
 .navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover{
-    color:black;
+    color:#000
 }
 .navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.active{
-    color:black;
+    color:#000
 }
 .navbar-light .navbar-toggler{
-    color:black;
-    border-color:black;
+    color:#000;
+    border-color:#000
 }
 .navbar-light .navbar-toggler-icon{
     background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 .navbar-light .navbar-text{
-    color:black;
+    color:#000
 }
 .navbar-light .navbar-text a{
-    color:black;
+    color:#000
 }
 .navbar-light .navbar-text a:focus,.navbar-light .navbar-text a:hover{
-    color:black;
+    color:#000
 }
 .navbar-dark .navbar-logo{
-    color:white
+    color:#fff
 }
 .navbar-dark .navbar-logo:focus,.navbar-dark .navbar-logo:hover{
-    color:white
+    color:#fff
 }
 .navbar-dark .navbar-nav .nav-link{
-    color:white;
+    color:#fff
 }
 .navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:hover{
-    color:white;
+    color:#fff
 }
 .navbar-dark .navbar-nav .active>.nav-link,.navbar-dark .navbar-nav .nav-link.active{
-    color:white
+    color:#fff
 }
 .navbar-dark .navbar-toggler{
-    color:white;
-    border-color:black;
+    color:#fff;
+    border-color:#000
 }
 .navbar-dark .navbar-toggler-icon{
     background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
@@ -1206,10 +1203,10 @@ button{
     color:rgba(255,255,255,.7)
 }
 .navbar-dark .navbar-text a{
-    color:white
+    color:#fff
 }
 .navbar-dark .navbar-text a:focus,.navbar-dark .navbar-text a:hover{
-    color:white
+    color:#fff
 }
 .card{
     position:relative;
@@ -1224,11 +1221,11 @@ button{
     flex-direction:column;
     min-width:0;
     word-wrap:break-word;
-    background-color:white;
+    background-color:#fff;
     background-clip:border-box;
-    border:1px solid black;
+    border:1px solid #000;
     border-radius:0;
-    text-decoration:none;
+    text-decoration:none
 }
 .card-body{
     -webkit-box-flex:1;
@@ -1251,13 +1248,11 @@ button{
 .card-link:hover{
     text-decoration:none
 }
-
 .card:hover{
-  text-decoration:none
+    text-decoration:none
 }
-
 .card-body:hover{
-  text-decoration:none
+    text-decoration:none
 }
 .card-link+.card-link{
     margin-left:1.25rem
@@ -1265,16 +1260,16 @@ button{
 .card-header{
     padding:.75rem 1.25rem;
     margin-bottom:0;
-    background-color:black;
-    border-bottom:1px solid black;
+    background-color:#000;
+    border-bottom:1px solid #000
 }
 .card-header:first-child{
     border-radius:calc(0 - 1px) calc(0 - 1px) 0 0
 }
 .card-footer{
     padding:.75rem 1.25rem;
-    background-color:black;
-    border-top:1px solid black;
+    background-color:#000;
+    border-top:1px solid #000
 }
 .card-footer:last-child{
     border-radius:0 0 calc(0 - 1px) calc(0 - 1px)
@@ -1296,47 +1291,6 @@ button{
     border-top-left-radius:calc(0 - 1px);
     border-top-right-radius:calc(0 - 1px)
 }
-.badge{
-    display:inline-block;
-    padding:.25em .4em;
-    font-size:75%;
-    font-weight:700;
-    line-height:1;
-    text-align:center;
-    white-space:nowrap;
-    vertical-align:baseline;
-    border-radius:.25rem;
-    -webkit-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
-}
-@media (prefers-reduced-motion:reduce){
-    .badge{
-        -webkit-transition:none;
-        transition:none
-    }
-}
-a.badge:focus,a.badge:hover{
-    text-decoration:none
-}
-.badge:empty{
-    display:none
-}
-.btn .badge{
-    position:relative;
-    top:-1px
-}
-.badge-info{
-    color:white;
-    background-color:#14a3b9;
-}
-a.badge-info:focus,a.badge-info:hover{
-    color:white;
-    background-color:#128395;
-}
-a.badge-info:focus{
-    outline:0;
-    box-shadow:0 0 0 .2rem rgba(23, 160, 181, 0.5)
-}
 @-webkit-keyframes progress-bar-stripes{
     from{
         background-position:.3rem 0
@@ -1352,22 +1306,6 @@ a.badge-info:focus{
     to{
         background-position:0 0
     }
-}
-.media{
-    display:-webkit-box;
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-align:start;
-    -webkit-align-items:flex-start;
-    -ms-flex-align:start;
-    align-items:flex-start
-}
-.media-body{
-    -webkit-box-flex:1;
-    -webkit-flex:1;
-    -ms-flex:1;
-    flex:1
 }
 .carousel{
     position:relative
@@ -1446,7 +1384,7 @@ a.badge-info:focus{
     z-index:10;
     padding-top:20px;
     padding-bottom:20px;
-    color:white;
+    color:#fff;
     text-align:center
 }
 @-webkit-keyframes spinner-border{
@@ -1502,7 +1440,7 @@ a.badge-info:focus{
     vertical-align:text-top!important
 }
 .bg-light{
-    background-color:white!important
+    background-color:#fff!important
 }
 a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     background-color:#dce1e5!important
@@ -1511,7 +1449,7 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     border:0!important
 }
 .border-top{
-    border-top:1px solid #dee2e6 !important
+    border-top:1px solid #dee2e6!important
 }
 .d-none{
     display:none!important
@@ -1732,73 +1670,73 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
 .h-auto{
     height:auto!important
 }
-.mt-0,.my-0{
+.mt-0{
     margin-top:0!important
 }
 .mr-0{
     margin-right:0!important
 }
-.mb-0,.my-0{
+.mb-0{
     margin-bottom:0!important
 }
 .ml-0{
     margin-left:0!important
 }
-.mt-1,.my-1{
+.mt-1{
     margin-top:.25rem!important
 }
 .mr-1{
     margin-right:.25rem!important
 }
-.mb-1,.my-1{
+.mb-1{
     margin-bottom:.25rem!important
 }
 .ml-1{
     margin-left:.25rem!important
 }
-.mt-2,.my-2{
+.mt-2{
     margin-top:.5rem!important
 }
 .mr-2{
     margin-right:.5rem!important
 }
-.mb-2,.my-2{
+.mb-2{
     margin-bottom:.5rem!important
 }
 .ml-2{
     margin-left:.5rem!important
 }
-.mt-3,.my-3{
+.mt-3{
     margin-top:1rem!important
 }
 .mr-3{
     margin-right:1rem!important
 }
-.mb-3,.my-3{
+.mb-3{
     margin-bottom:1rem!important
 }
 .ml-3{
     margin-left:1rem!important
 }
-.mt-4,.my-4{
+.mt-4{
     margin-top:1.5rem!important
 }
 .mr-4{
     margin-right:1.5rem!important
 }
-.mb-4,.my-4{
+.mb-4{
     margin-bottom:1.5rem!important
 }
 .ml-4{
     margin-left:1.5rem!important
 }
-.mt-5,.my-5{
+.mt-5{
     margin-top:3rem!important
 }
 .mr-5{
     margin-right:3rem!important
 }
-.mb-5,.my-5{
+.mb-5{
     margin-bottom:3rem!important
 }
 .ml-5{
@@ -1810,9 +1748,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
 .py-0{
     padding-top:0!important
 }
-.pr-0{
-    padding-right:0!important
-}
 .pb-0,.py-0{
     padding-bottom:0!important
 }
@@ -1821,9 +1756,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
 }
 .py-1{
     padding-top:.25rem!important
-}
-.pr-1{
-    padding-right:.25rem!important
 }
 .pb-1,.py-1{
     padding-bottom:.25rem!important
@@ -1834,9 +1766,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
 .py-2{
     padding-top:.5rem!important
 }
-.pr-2{
-    padding-right:.5rem!important
-}
 .pb-2,.py-2{
     padding-bottom:.5rem!important
 }
@@ -1845,9 +1774,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
 }
 .py-3{
     padding-top:1rem!important
-}
-.pr-3{
-    padding-right:1rem!important
 }
 .pb-3,.py-3{
     padding-bottom:1rem!important
@@ -1858,9 +1784,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
 .py-4{
     padding-top:1.5rem!important
 }
-.pr-4{
-    padding-right:1.5rem!important
-}
 .pb-4,.py-4{
     padding-bottom:1.5rem!important
 }
@@ -1870,92 +1793,89 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
 .py-5{
     padding-top:3rem!important
 }
-.pr-5{
-    padding-right:3rem!important
-}
 .pb-5,.py-5{
     padding-bottom:3rem!important
 }
-.mt-auto,.my-auto{
+.mt-auto{
     margin-top:auto!important
 }
 .mr-auto{
     margin-right:auto!important
 }
-.mb-auto,.my-auto{
+.mb-auto{
     margin-bottom:auto!important
 }
 .ml-auto{
     margin-left:auto!important
 }
 @media (min-width:576px){
-    .mt-sm-0,.my-sm-0{
+    .mt-sm-0{
         margin-top:0!important
     }
     .mr-sm-0{
         margin-right:0!important
     }
-    .mb-sm-0,.my-sm-0{
+    .mb-sm-0{
         margin-bottom:0!important
     }
     .ml-sm-0{
         margin-left:0!important
     }
-    .mt-sm-1,.my-sm-1{
+    .mt-sm-1{
         margin-top:.25rem!important
     }
     .mr-sm-1{
         margin-right:.25rem!important
     }
-    .mb-sm-1,.my-sm-1{
+    .mb-sm-1{
         margin-bottom:.25rem!important
     }
     .ml-sm-1{
         margin-left:.25rem!important
     }
-    .mt-sm-2,.my-sm-2{
+    .mt-sm-2{
         margin-top:.5rem!important
     }
     .mr-sm-2{
         margin-right:.5rem!important
     }
-    .mb-sm-2,.my-sm-2{
+    .mb-sm-2{
         margin-bottom:.5rem!important
     }
     .ml-sm-2{
         margin-left:.5rem!important
     }
-    .mt-sm-3,.my-sm-3{
+    .mt-sm-3{
         margin-top:1rem!important
     }
     .mr-sm-3{
         margin-right:1rem!important
     }
-    .mb-sm-3,.my-sm-3{
+    .mb-sm-3{
         margin-bottom:1rem!important
     }
     .ml-sm-3{
         margin-left:1rem!important
     }
-    .mt-sm-4,.my-sm-4{
+    .mt-sm-4{
         margin-top:1.5rem!important
     }
     .mr-sm-4{
         margin-right:1.5rem!important
     }
-    .mb-sm-4,.my-sm-4{
+    .mb-sm-4{
         margin-bottom:1.5rem!important
     }
     .ml-sm-4{
         margin-left:1.5rem!important
     }
-    .mt-sm-5,.my-sm-5{
+    .mt-sm-5{
         margin-top:3rem!important
     }
     .mr-sm-5{
         margin-right:3rem!important
     }
-    .mb-sm-5,.my-sm-5{
+    .mb-sm-5{
         margin-bottom:3rem!important
     }
     .ml-sm-5{
@@ -1967,9 +1887,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-sm-0{
         padding-top:0!important
     }
-    .pr-sm-0{
-        padding-right:0!important
-    }
     .pb-sm-0,.py-sm-0{
         padding-bottom:0!important
     }
@@ -1978,9 +1895,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     }
     .py-sm-1{
         padding-top:.25rem!important
-    }
-    .pr-sm-1{
-        padding-right:.25rem!important
     }
     .pb-sm-1,.py-sm-1{
         padding-bottom:.25rem!important
@@ -1991,9 +1905,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-sm-2{
         padding-top:.5rem!important
     }
-    .pr-sm-2{
-        padding-right:.5rem!important
-    }
     .pb-sm-2,.py-sm-2{
         padding-bottom:.5rem!important
     }
@@ -2002,9 +1913,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     }
     .py-sm-3{
         padding-top:1rem!important
-    }
-    .pr-sm-3{
-        padding-right:1rem!important
     }
     .pb-sm-3,.py-sm-3{
         padding-bottom:1rem!important
@@ -2015,9 +1923,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-sm-4{
         padding-top:1.5rem!important
     }
-    .pr-sm-4{
-        padding-right:1.5rem!important
-    }
     .pb-sm-4,.py-sm-4{
         padding-bottom:1.5rem!important
     }
@@ -2027,19 +1932,16 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-sm-5{
         padding-top:3rem!important
     }
-    .pr-sm-5{
-        padding-right:3rem!important
-    }
     .pb-sm-5,.py-sm-5{
         padding-bottom:3rem!important
     }
-    .mt-sm-auto,.my-sm-auto{
+    .mt-sm-auto{
         margin-top:auto!important
     }
     .mr-sm-auto{
         margin-right:auto!important
     }
-    .mb-sm-auto,.my-sm-auto{
+    .mb-sm-auto{
         margin-bottom:auto!important
     }
     .ml-sm-auto{
@@ -2047,73 +1949,73 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     }
 }
 @media (min-width:768px){
-    .mt-md-0,.my-md-0{
+    .mt-md-0{
         margin-top:0!important
     }
     .mr-md-0{
         margin-right:0!important
     }
-    .mb-md-0,.my-md-0{
+    .mb-md-0{
         margin-bottom:0!important
     }
     .ml-md-0{
         margin-left:0!important
     }
-    .mt-md-1,.my-md-1{
+    .mt-md-1{
         margin-top:.25rem!important
     }
     .mr-md-1{
         margin-right:.25rem!important
     }
-    .mb-md-1,.my-md-1{
+    .mb-md-1{
         margin-bottom:.25rem!important
     }
     .ml-md-1{
         margin-left:.25rem!important
     }
-    .mt-md-2,.my-md-2{
+    .mt-md-2{
         margin-top:.5rem!important
     }
     .mr-md-2{
         margin-right:.5rem!important
     }
-    .mb-md-2,.my-md-2{
+    .mb-md-2{
         margin-bottom:.5rem!important
     }
     .ml-md-2{
         margin-left:.5rem!important
     }
-    .mt-md-3,.my-md-3{
+    .mt-md-3{
         margin-top:1rem!important
     }
     .mr-md-3{
         margin-right:1rem!important
     }
-    .mb-md-3,.my-md-3{
+    .mb-md-3{
         margin-bottom:1rem!important
     }
     .ml-md-3{
         margin-left:1rem!important
     }
-    .mt-md-4,.my-md-4{
+    .mt-md-4{
         margin-top:1.5rem!important
     }
     .mr-md-4{
         margin-right:1.5rem!important
     }
-    .mb-md-4,.my-md-4{
+    .mb-md-4{
         margin-bottom:1.5rem!important
     }
     .ml-md-4{
         margin-left:1.5rem!important
     }
-    .mt-md-5,.my-md-5{
+    .mt-md-5{
         margin-top:3rem!important
     }
     .mr-md-5{
         margin-right:3rem!important
     }
-    .mb-md-5,.my-md-5{
+    .mb-md-5{
         margin-bottom:3rem!important
     }
     .ml-md-5{
@@ -2125,9 +2027,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-md-0{
         padding-top:0!important
     }
-    .pr-md-0{
-        padding-right:0!important
-    }
     .pb-md-0,.py-md-0{
         padding-bottom:0!important
     }
@@ -2136,9 +2035,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     }
     .py-md-1{
         padding-top:.25rem!important
-    }
-    .pr-md-1{
-        padding-right:.25rem!important
     }
     .pb-md-1,.py-md-1{
         padding-bottom:.25rem!important
@@ -2149,9 +2045,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-md-2{
         padding-top:.5rem!important
     }
-    .pr-md-2{
-        padding-right:.5rem!important
-    }
     .pb-md-2,.py-md-2{
         padding-bottom:.5rem!important
     }
@@ -2160,9 +2053,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     }
     .py-md-3{
         padding-top:1rem!important
-    }
-    .pr-md-3{
-        padding-right:1rem!important
     }
     .pb-md-3,.py-md-3{
         padding-bottom:1rem!important
@@ -2173,9 +2063,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-md-4{
         padding-top:1.5rem!important
     }
-    .pr-md-4{
-        padding-right:1.5rem!important
-    }
     .pb-md-4,.py-md-4{
         padding-bottom:1.5rem!important
     }
@@ -2185,19 +2072,16 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-md-5{
         padding-top:3rem!important
     }
-    .pr-md-5{
-        padding-right:3rem!important
-    }
     .pb-md-5,.py-md-5{
         padding-bottom:3rem!important
     }
-    .mt-md-auto,.my-md-auto{
+    .mt-md-auto{
         margin-top:auto!important
     }
     .mr-md-auto{
         margin-right:auto!important
     }
-    .mb-md-auto,.my-md-auto{
+    .mb-md-auto{
         margin-bottom:auto!important
     }
     .ml-md-auto{
@@ -2205,73 +2089,73 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     }
 }
 @media (min-width:992px){
-    .mt-lg-0,.my-lg-0{
+    .mt-lg-0{
         margin-top:0!important
     }
     .mr-lg-0{
         margin-right:0!important
     }
-    .mb-lg-0,.my-lg-0{
+    .mb-lg-0{
         margin-bottom:0!important
     }
     .ml-lg-0{
         margin-left:0!important
     }
-    .mt-lg-1,.my-lg-1{
+    .mt-lg-1{
         margin-top:.25rem!important
     }
     .mr-lg-1{
         margin-right:.25rem!important
     }
-    .mb-lg-1,.my-lg-1{
+    .mb-lg-1{
         margin-bottom:.25rem!important
     }
     .ml-lg-1{
         margin-left:.25rem!important
     }
-    .mt-lg-2,.my-lg-2{
+    .mt-lg-2{
         margin-top:.5rem!important
     }
     .mr-lg-2{
         margin-right:.5rem!important
     }
-    .mb-lg-2,.my-lg-2{
+    .mb-lg-2{
         margin-bottom:.5rem!important
     }
     .ml-lg-2{
         margin-left:.5rem!important
     }
-    .mt-lg-3,.my-lg-3{
+    .mt-lg-3{
         margin-top:1rem!important
     }
     .mr-lg-3{
         margin-right:1rem!important
     }
-    .mb-lg-3,.my-lg-3{
+    .mb-lg-3{
         margin-bottom:1rem!important
     }
     .ml-lg-3{
         margin-left:1rem!important
     }
-    .mt-lg-4,.my-lg-4{
+    .mt-lg-4{
         margin-top:1.5rem!important
     }
     .mr-lg-4{
         margin-right:1.5rem!important
     }
-    .mb-lg-4,.my-lg-4{
+    .mb-lg-4{
         margin-bottom:1.5rem!important
     }
     .ml-lg-4{
         margin-left:1.5rem!important
     }
-    .mt-lg-5,.my-lg-5{
+    .mt-lg-5{
         margin-top:3rem!important
     }
     .mr-lg-5{
         margin-right:3rem!important
     }
-    .mb-lg-5,.my-lg-5{
+    .mb-lg-5{
         margin-bottom:3rem!important
     }
     .ml-lg-5{
@@ -2283,9 +2167,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-lg-0{
         padding-top:0!important
     }
-    .pr-lg-0{
-        padding-right:0!important
-    }
     .pb-lg-0,.py-lg-0{
         padding-bottom:0!important
     }
@@ -2294,9 +2175,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     }
     .py-lg-1{
         padding-top:.25rem!important
-    }
-    .pr-lg-1{
-        padding-right:.25rem!important
     }
     .pb-lg-1,.py-lg-1{
         padding-bottom:.25rem!important
@@ -2307,9 +2185,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-lg-2{
         padding-top:.5rem!important
     }
-    .pr-lg-2{
-        padding-right:.5rem!important
-    }
     .pb-lg-2,.py-lg-2{
         padding-bottom:.5rem!important
     }
@@ -2318,9 +2193,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     }
     .py-lg-3{
         padding-top:1rem!important
-    }
-    .pr-lg-3{
-        padding-right:1rem!important
     }
     .pb-lg-3,.py-lg-3{
         padding-bottom:1rem!important
@@ -2331,9 +2203,6 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-lg-4{
         padding-top:1.5rem!important
     }
-    .pr-lg-4{
-        padding-right:1.5rem!important
-    }
     .pb-lg-4,.py-lg-4{
         padding-bottom:1.5rem!important
     }
@@ -2343,19 +2212,16 @@ a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
     .py-lg-5{
         padding-top:3rem!important
     }
-    .pr-lg-5{
-        padding-right:3rem!important
-    }
     .pb-lg-5,.py-lg-5{
         padding-bottom:3rem!important
     }
-    .mt-lg-auto,.my-lg-auto{
+    .mt-lg-auto{
         margin-top:auto!important
     }
     .mr-lg-auto{
         margin-right:auto!important
     }
-    .mb-lg-auto,.my-lg-auto{
+    .mb-lg-auto{
         margin-bottom:auto!important
     }
     .ml-lg-auto{
@@ -2426,7 +2292,7 @@ a.text-info:focus,a.text-info:hover{
     color:#0d6370!important
 }
 .text-light{
-    color:white!important
+    color:#fff!important
 }
 a.text-light:focus,a.text-light:hover{
     color:#c9d3dc!important
@@ -2435,10 +2301,10 @@ a.text-light:focus,a.text-light:hover{
     color:#32383e!important
 }
 a.text-dark:focus,a.text-dark:hover{
-    color:black!important
+    color:#000!important
 }
 .text-body{
-    color:black!important
+    color:#000!important
 }
 @media print{
     *,::after,::before{
@@ -2470,14 +2336,11 @@ a.text-dark:focus,a.text-dark:hover{
     .navbar{
         display:none
     }
-    .badge{
-        border:1px solid #000
-    }
 }
 .infos{
     height:100px;
     padding-bottom:20px;
-    color:white;
+    color:#fff;
     display:-webkit-box;
     display:-ms-flexbox;
     display:-webkit-flex;
@@ -2503,7 +2366,7 @@ a.text-dark:focus,a.text-dark:hover{
     opacity:.9
 }
 .infos .title .font-small{
-    color:white;
+    color:#fff;
     font-size:13px
 }
 .infos .subtitle{
@@ -2517,7 +2380,7 @@ a.text-dark:focus,a.text-dark:hover{
 }
 .infos .social-links a{
     font-size:14px;
-    color:white
+    color:#fff
 }
 .infos .social-links a:hover{
     color:#b12135
@@ -2559,7 +2422,7 @@ h1,h2,h3,h4,h5,h6{
 p{
     font-size:calc(13px + (15 - 13) * ((100vw - 300px)/ (1300 - 300)));
     opacity:.9;
-    color:black;
+    color:#000;
     letter-spacing:.6px
 }
 .xs-font{
@@ -2568,9 +2431,6 @@ p{
 }
 .title{
     font-size:calc(15px + (20 - 15) * ((100vw - 300px)/ (1300 - 300)))
-}
-.btn-rounded{
-    border-radius:100px
 }
 .widget{
     display:-webkit-box;
@@ -2626,32 +2486,17 @@ p{
 .blog-wrapper .img-wrapper img{
     width:100%;
     border-radius:0;
-    box-shadow:0 0 25px rgba(106, 115, 122, 0.2)
+    box-shadow:0 0 25px rgba(106,115,122,.2)
 }
 .blog-wrapper .img-wrapper .date-container{
     position:absolute;
     top:20px;
     left:20px;
-    color:white;
+    color:#fff;
     text-align:center;
     font-weight:700;
     border-radius:0;
     overflow:hidden
-}
-.blog-wrapper .img-wrapper .date-container .day{
-    font-size:25px;
-    background:#f7a7a7;
-    margin:0;
-    width:50px;
-    height:50px;
-    line-height:50px;
-    margin:0
-}
-.blog-wrapper .img-wrapper .date-container .mun{
-    font-size:20px;
-    background:#f38282;
-    margin:0;
-    padding:5px 0
 }
 .blog-wrapper .txt-wrapper{
     -webkit-box-flex:1;
@@ -2659,9 +2504,6 @@ p{
     -ms-flex-positive:1;
     flex-grow:1;
     padding-right:20px
-}
-.blog-wrapper .txt-wrapper .badge{
-    margin:15px 0 0
 }
 .blog-wrapper .txt-wrapper .blog-footer{
     margin-top:15px;
@@ -2672,7 +2514,7 @@ p{
 .blog-wrapper .txt-wrapper .blog-footer a{
     display:inline-block;
     margin:0 10px;
-    color:#484f56;
+    color:#484f56
 }
 .blog-wrapper .txt-wrapper .blog-footer a i{
     display:inline-block;
@@ -2715,7 +2557,7 @@ p{
     background:0 0!important
 }
 .navbar.affix-top .nav-link{
-    color:white
+    color:#fff
 }
 .navbar.affix{
     padding-top:.8rem;
@@ -2824,10 +2666,10 @@ p{
     }
 }
 .navbar-light .navbar-toggler-icon{
-    background:black;
+    background:#000
 }
 .navbar-dark .navbar-toggler-icon{
-    background:white;
+    background:#fff
 }
 .footer{
     padding:10px 0
@@ -2921,7 +2763,7 @@ p{
     font-size:2.4rem;
     font-weight:700;
     opacity:.8;
-    color:black
+    color:#000
 }
 .mouse-icon{
     position:absolute;
@@ -2962,20 +2804,34 @@ p{
     margin-left:auto;
     margin-right:auto
 }
-
-@-webkit-keyframes drop {
-  0%   { top:5px;  opacity: 0;}
-  30%  { top:10px; opacity: 1;}
-  100% { top:25px; opacity: 0;}
+@-webkit-keyframes drop{
+    0%{
+        top:5px;
+        opacity:0
+    }
+    30%{
+        top:10px;
+        opacity:1
+    }
+    100%{
+        top:25px;
+        opacity:0
+    }
 }
-
-
-@keyframes drop	{
-0%   { top:5px;  opacity: 0;}
-30%  { top:10px; opacity: 1;}
-100% { top:25px; opacity: 0;}
+@keyframes drop{
+    0%{
+        top:5px;
+        opacity:0
+    }
+    30%{
+        top:10px;
+        opacity:1
+    }
+    100%{
+        top:25px;
+        opacity:0
+    }
 }
-
 @media (max-width:767.98px){
     .header{
         height:auto;
@@ -3015,7 +2871,7 @@ p{
 }
 .section.bg-overlay-2{
     background:#2a3c4e;
-    color:white
+    color:#fff
 }
 .section.bg-contact{
     padding:120px 0;
